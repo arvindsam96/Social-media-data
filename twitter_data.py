@@ -130,7 +130,7 @@ if __name__ == '__main__':
     user_data = write_to_excel(user_tweets) 
     # Create excel for user data
     create_excel(user_data, 'user_data.xlsx')
-    pages_list = ['EpicGames','fortnitegame', 'battlebreakers']
+    pages_list = []
     for elem in pages_list:
         data = []
         excel_name = ''
