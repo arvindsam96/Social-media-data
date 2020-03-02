@@ -47,24 +47,7 @@ if __name__ == '__main__':
     create_excel(gud_data, 'red_user_data_reddit_data.xlsx')
     
     #Get Search posts data for EpicGamesPC
-    srch = get_srch_posts('EpicGamesPC', 100)
+    srch = get_srch_posts('page-name', 100)
     #Write data to excel file
-    create_excel(srch, 'EpicGamesPC_reddit_data.xlsx')
-    
-    #Get Search posts data for FORTnITE
-    srch = get_srch_posts('FORTnITE', 100)
-    #Write data to excel file
-    create_excel(srch, 'FORTnITE_reddit_data.xlsx')
-    
-    
-    #Get Search posts data for FortniteCompetitive
-    srch = get_srch_posts('FortniteCompetitive', 100)
-    #Write data to excel file
-    create_excel(srch, 'FortniteCompetitive_redd_data.xlsx')
-    
-    
-    #Get Search posts data for BattleBreakers
-    srch = get_srch_posts('BattleBreakers', 100)
-    #Write data to excel file
-    create_excel(srch, 'BattleBreakers_redd_data.xlsx')
+    create_excel(srch, 'page-name.xlsx')
 
